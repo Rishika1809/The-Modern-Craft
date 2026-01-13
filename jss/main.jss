@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     /* --- CONFIGURATION --- */
     // REPLACE THIS WITH YOUR REAL NUMBER
-    const WHATSAPP_NUMBER = "7042964343"; 
+    const WHATSAPP_NUMBER = "917042964343"; 
 
     /* --- MOBILE NAVIGATION --- */
     const menuToggle = document.querySelector('.menu-toggle');
@@ -48,3 +48,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
