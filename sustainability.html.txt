@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sustainability | The Modern Craft Co.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrapper">
+            <div class="logo"><a href="index.html">The Modern Craft Co.</a></div>
+            <div class="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="text-page-header">
+            <h1>Made Consciously</h1>
+            <p>We believe in objects that age gracefully and tread lightly on the earth.</p>
+        </div>
+
+        <div class="editorial-block">
+            <div class="editorial-image">
+                <img src="https://images.unsplash.com/photo-1544207240-8b1025eb7aeb?q=80&w=1000&auto=format&fit=crop" alt="Hands crafting">
+            </div>
+            <div class="editorial-text">
+                <h2>Natural Materials</h2>
+                <br>
+                <p>We strictly avoid synthetic plastics. Our baskets are woven from river grass, jute, and cotton. Our wood is reclaimed or FSC-certified. Every texture you feel is exactly as nature intended.</p>
+            </div>
+        </div>
+
+        <div class="editorial-block">
+            <div class="editorial-text">
+                <h2>Slow Production</h2>
+                <br>
+                <p>Mass production is not our style. We work in small batches. This minimizes waste and ensures that every artisan is paid fairly for their time and skill. When you buy from us, you are supporting a person, not a factory.</p>
+            </div>
+            <div class="editorial-image">
+                <img src="https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?q=80&w=1000&auto=format&fit=crop" alt="Cotton texture">
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
