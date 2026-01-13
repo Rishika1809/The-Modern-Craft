@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woven Storage Basket | The Modern Craft Co.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-wrapper">
+            <div class="logo"><a href="index.html">The Modern Craft Co.</a></div>
+            <div class="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container product-detail-layout">
+        <div class="detail-image">
+            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1000&auto=format&fit=crop" alt="Woven Basket">
+        </div>
+        <div class="detail-content">
+            <h1>Woven Storage Basket</h1>
+            <p style="font-size: 1.5rem; margin-bottom: 2rem; color: var(--text-secondary);">$45.00</p>
+            
+            <p style="margin-bottom: 2rem;">
+                A versatile storage solution that brings warmth to any corner. Hand-braided using sustainable river grass and cotton. Perfect for storing throws, toys, or your favorite potted plant.
+            </p>
+
+            <button class="btn js-order-whatsapp" data-product="Woven Storage Basket" style="width: 100%; text-align: center; margin-bottom: 3rem;">
+                Order via WhatsApp
+            </button>
+
+            <div class="detail-section">
+                <h4>Material & Care</h4>
+                <p>100% Natural River Grass. Wipe clean with a damp cloth. Keep away from direct moisture.</p>
+            </div>
+            
+            <div class="detail-section">
+                <h4>Dimensions</h4>
+                <p>Height: 12" | Diameter: 14"</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
