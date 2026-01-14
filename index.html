@@ -4,118 +4,197 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Modern Craft Co. | Conscious Home Goods</title>
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <div class="container nav-wrapper">
-            <div class="logo"><a href="index.html">The Modern Craft Co.</a></div>
-            <div class="menu-toggle">☰</div>
-            <ul class="nav-links">
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="about.html">Our Story</a></li>
-                <li><a href="sustainability.html">Sustainability</a></li>
-                <li><a href="contact.html">Contact</a></li>
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="container nav-wrapper">
+        <div class="logo">
+            <a href="index.html">The Modern Craft Co.</a>
+        </div>
+
+        <div class="menu-toggle">☰</div>
+
+        <ul class="nav-links">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero" style="background-image: url('assets/images/hero.jpg');">
+    <div class="hero-content">
+        <h1>Thoughtful designs, made consciously.</h1>
+        <p>Handcrafted home goods inspired by nature, simplicity, and slow living.</p>
+
+        <div class="hero-buttons">
+            <a href="shop.html" class="btn">Shop the Collection</a>
+            <a href="#" class="btn btn-outline js-order-whatsapp" data-product="General Inquiry">
+                Chat on WhatsApp
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ================= COLLECTION ================= -->
+<section class="container">
+    <h2 class="collection-title">The Everyday Earth Collection</h2>
+
+    <div class="product-grid">
+
+        <!-- 1. Handwoven Storage Baskets -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/basket-01.jpg" alt="Handwoven Storage Baskets">
+                </div>
+                <div class="product-info">
+                    <h3>Handwoven Storage Baskets (Set of Two)</h3>
+                    <p>
+                        Handwoven from natural jute, designed to bring warmth, order, and effortless storage to everyday spaces.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 2. Macramé Wall Mirror -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/mirror-01.jpg" alt="Macrame Wall Mirror">
+                </div>
+                <div class="product-info">
+                    <h3>Macramé Wall Mirror</h3>
+                    <p>
+                        Intricately hand-knotted using natural cotton rope, adding texture, depth, and quiet elegance to walls.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 3. Everyday Utility Basket -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/utility-basket.jpg" alt="Everyday Utility Basket">
+                </div>
+                <div class="product-info">
+                    <h3>Everyday Utility Basket</h3>
+                    <p>
+                        A compact handwoven basket crafted to organize daily essentials with a clean, minimal aesthetic.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 4. Woven Planter Covers -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/planter-01.jpg" alt="Woven Planter Covers">
+                </div>
+                <div class="product-info">
+                    <h3>Woven Planter Covers (Set of Two)</h3>
+                    <p>
+                        Handwoven planter covers designed to conceal plastic pots while elevating indoor greenery.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 5. Hanging Storage Baskets -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/hanging-basket.jpg" alt="Hanging Storage Baskets">
+                </div>
+                <div class="product-info">
+                    <h3>Hanging Storage Baskets (Three-Tier)</h3>
+                    <p>
+                        A vertical, space-saving storage solution that keeps essentials accessible without using floor space.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 6. Wooden Hanging Shelf -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/hanging-shelf.jpg" alt="Wooden Hanging Shelf">
+                </div>
+                <div class="product-info">
+                    <h3>Wooden Hanging Shelf (Two-Tier)</h3>
+                    <p>
+                        Minimal wooden shelves suspended by cotton rope, designed to display everyday essentials with ease.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="container footer-grid">
+
+        <div class="footer-col">
+            <h4>Shop</h4>
+            <ul>
+                <li><a href="shop.html">All Products</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Home Decor</a></li>
             </ul>
         </div>
-    </header>
 
-<section class="hero" style="background-image: url('assets/images/hero.jpg');">
-        <div class="hero-content">
-            <h1>Thoughtful designs, made consciously.</h1>
-            <p>Handcrafted home goods inspired by nature and slow living.</p>
-            <div class="hero-buttons">
-                <a href="shop.html" class="btn">Shop the Collection</a>
-                <a href="#" class="btn btn-outline js-order-whatsapp" data-product="General Inquiry">Chat on WhatsApp</a>
-            </div>
+        <div class="footer-col">
+            <h4>About</h4>
+            <ul>
+                <li><a href="about.html">Our Story</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
         </div>
-    </section>
 
-    <section class="container">
-        <h2 class="collection-title">The Everyday Earth Collection</h2>
-        <div class="product-grid">
-            
-            <div class="product-card">
-                <a href="product.html">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1000&auto=format&fit=crop" alt="Jute Planter">
-                    </div>
-                    <div class="product-info">
-                        <h3>Woven Jute Planter</h3>
-                        <p>Natural Storage & Decor</p>
-                        <span class="btn btn-outline">View Details</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="product-card">
-                <a href="product.html">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1594040226829-7f251ab46d80?q=80&w=1000&auto=format&fit=crop" alt="Ceramic Vase">
-                    </div>
-                    <div class="product-info">
-                        <h3>Artisan Clay Vase</h3>
-                        <p>Minimalist Tableware</p>
-                        <span class="btn btn-outline">View Details</span>
-                    </div>
-                </a>
-            </div>
-
-            <div class="product-card">
-                <a href="product.html">
-                    <div class="product-image">
-                        <img src="https://images.unsplash.com/photo-1532323544230-7191fd510c59?q=80&w=1000&auto=format&fit=crop" alt="Linen Throw">
-                    </div>
-                    <div class="product-info">
-                        <h3>Organic Cotton Throw</h3>
-                        <p>Soft Texture for Living</p>
-                        <span class="btn btn-outline">View Details</span>
-                    </div>
-                </a>
-            </div>
-
+        <div class="footer-col">
+            <h4>Connect</h4>
+            <ul>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">WhatsApp</a></li>
+            </ul>
         </div>
-    </section>
 
-    <footer>
-        <div class="container footer-grid">
-            <div class="footer-col">
-                <h4>Shop</h4>
-                <ul>
-                    <li><a href="shop.html">All Products</a></li>
-                    <li><a href="#">New Arrivals</a></li>
-                    <li><a href="#">Home Decor</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>About</h4>
-                <ul>
-                    <li><a href="about.html">Our Story</a></li>
-                    <li><a href="sustainability.html">Sustainability</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Connect</h4>
-                <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Pinterest</a></li>
-                    <li><a href="#">WhatsApp</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>The Modern Craft Co.</h4>
-                <p style="font-size: 0.9rem; color: var(--text-secondary);">
-                    Slow goods for a thoughtful home. Designed in-house, crafted by hand.
-                </p>
-            </div>
+        <div class="footer-col">
+            <h4>The Modern Craft Co.</h4>
+            <p>
+                Slow goods for a thoughtful home. Designed in-house and handcrafted using natural materials.
+            </p>
         </div>
-    </footer>
 
-    <script src="js/main.js"></script>
+    </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+
 </body>
 </html>
- 
-
