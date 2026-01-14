@@ -3,76 +3,151 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Shop Collection | The Modern Craft Co.</title>
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <div class="container nav-wrapper">
-            <div class="logo"><a href="index.html">The Modern Craft Co.</a></div>
-            <div class="menu-toggle">☰</div>
-            <ul class="nav-links">
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="about.html">Our Story</a></li>
-                <li><a href="sustainability.html">Sustainability</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="container nav-wrapper">
+        <div class="logo">
+            <a href="index.html">The Modern Craft Co.</a>
         </div>
-    </header>
 
-    <div class="container" style="margin-top: 4rem;">
-        <h1 class="collection-title">All Products</h1>
-        <div class="product-grid">
-            
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1000&auto=format&fit=crop" alt="Jute Basket">
-                </div>
-                <div class="product-info">
-                    <h3>Handwoven Storage Basket</h3>
-                    <p>Perfect for blankets or toys.</p>
-                    <button class="btn js-order-whatsapp" data-product="Handwoven Storage Basket">Order on WhatsApp</button>
-                </div>
-            </div>
+        <div class="menu-toggle">☰</div>
 
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="https://images.unsplash.com/photo-1517817748493-49ec54a32465?q=80&w=1000&auto=format&fit=crop" alt="Wall Shelf">
-                </div>
-                <div class="product-info">
-                    <h3>Floating Timber Shelf</h3>
-                    <p>Reclaimed oak wood.</p>
-                    <button class="btn js-order-whatsapp" data-product="Floating Timber Shelf">Order on WhatsApp</button>
-                </div>
-            </div>
-
-            <div class="product-card">
-                <div class="product-image">
-                    <img src="https://images.unsplash.com/photo-1594040226829-7f251ab46d80?q=80&w=1000&auto=format&fit=crop" alt="Vase">
-                </div>
-                <div class="product-info">
-                    <h3>Terracotta Planter</h3>
-                    <p>Natural clay finish.</p>
-                    <button class="btn js-order-whatsapp" data-product="Terracotta Planter">Order on WhatsApp</button>
-                </div>
-            </div>
-            
-             <div class="product-card">
-                <div class="product-image">
-                    <img src="https://images.unsplash.com/photo-1550921045-8c0c4a45759a?q=80&w=1000&auto=format&fit=crop" alt="Wooden Toy">
-                </div>
-                <div class="product-info">
-                    <h3>Heirloom Wooden Car</h3>
-                    <p>Safe, non-toxic finish.</p>
-                    <button class="btn js-order-whatsapp" data-product="Heirloom Wooden Car">Order on WhatsApp</button>
-                </div>
-            </div>
-
-        </div>
+        <ul class="nav-links">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </div>
+</header>
 
-    <script src="js/main.js"></script>
+<!-- ================= SHOP ================= -->
+<section class="container" style="margin-top: 4rem;">
+    <h1 class="collection-title">All Products</h1>
+
+    <div class="product-grid">
+
+        <!-- 1. Handwoven Storage Baskets -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/basket-01.jpg" alt="Handwoven Storage Baskets">
+                </div>
+                <div class="product-info">
+                    <h3>Handwoven Storage Baskets (Set of Two)</h3>
+                    <p>
+                        Natural jute baskets designed to bring warmth, order, and everyday functionality.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 2. Macramé Wall Mirror -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/mirror-01.jpg" alt="Macramé Wall Mirror">
+                </div>
+                <div class="product-info">
+                    <h3>Macramé Wall Mirror</h3>
+                    <p>
+                        Hand-knotted cotton rope mirror that adds texture, depth, and softness to walls.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 3. Everyday Utility Basket -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/utility-basket.jpg" alt="Everyday Utility Basket">
+                </div>
+                <div class="product-info">
+                    <h3>Everyday Utility Basket</h3>
+                    <p>
+                        A compact handwoven basket crafted to organize daily essentials with a minimal look.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 4. Woven Planter Covers -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/planter-01.jpg" alt="Woven Planter Covers">
+                </div>
+                <div class="product-info">
+                    <h3>Woven Planter Covers (Set of Two)</h3>
+                    <p>
+                        Handwoven covers that conceal plastic pots while elevating indoor greenery.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 5. Hanging Storage Baskets -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/hanging-basket.jpg" alt="Hanging Storage Baskets">
+                </div>
+                <div class="product-info">
+                    <h3>Hanging Storage Baskets (Three-Tier)</h3>
+                    <p>
+                        A vertical, space-saving storage solution that keeps everyday items accessible.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+        <!-- 6. Wooden Hanging Shelf -->
+        <div class="product-card">
+            <a href="product.html">
+                <div class="product-image">
+                    <img src="assets/images/hanging-shelf.jpg" alt="Wooden Hanging Shelf">
+                </div>
+                <div class="product-info">
+                    <h3>Wooden Hanging Shelf (Two-Tier)</h3>
+                    <p>
+                        Minimal wooden shelves suspended by cotton rope, designed to display essentials.
+                    </p>
+                    <span class="btn btn-outline">View Details</span>
+                </div>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= FOOTER CTA (Optional) ================= -->
+<section class="container" style="margin: 4rem auto; text-align: center;">
+    <p style="font-size: 0.95rem; color: var(--text-secondary); max-width: 600px; margin: auto;">
+        Thoughtfully designed and handmade using natural materials. Minor variations in texture and weave
+        are part of the craft and make each piece unique.
+    </p>
+</section>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+
 </body>
 </html>
