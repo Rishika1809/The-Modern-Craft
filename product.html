@@ -3,53 +3,118 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Woven Storage Basket | The Modern Craft Co.</title>
+
+    <title>Handwoven Storage Baskets (Set of Two) | The Modern Craft Co.</title>
+
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <div class="container nav-wrapper">
-            <div class="logo"><a href="index.html">The Modern Craft Co.</a></div>
-            <div class="menu-toggle">☰</div>
-            <ul class="nav-links">
-                <li><a href="shop.html">Shop</a></li>
-                <li><a href="about.html">Our Story</a></li>
-                <li><a href="sustainability.html">Sustainability</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+<!-- ================= HEADER ================= -->
+<header>
+    <div class="container nav-wrapper">
+        <div class="logo">
+            <a href="index.html">The Modern Craft Co.</a>
         </div>
-    </header>
 
-    <div class="container product-detail-layout">
-        <div class="detail-image">
-            <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1000&auto=format&fit=crop" alt="Woven Basket">
-        </div>
-        <div class="detail-content">
-            <h1>Woven Storage Basket</h1>
-            <p style="font-size: 1.5rem; margin-bottom: 2rem; color: var(--text-secondary);">$45.00</p>
-            
-            <p style="margin-bottom: 2rem;">
-                A versatile storage solution that brings warmth to any corner. Hand-braided using sustainable river grass and cotton. Perfect for storing throws, toys, or your favorite potted plant.
-            </p>
+        <div class="menu-toggle">☰</div>
 
-            <button class="btn js-order-whatsapp" data-product="Woven Storage Basket" style="width: 100%; text-align: center; margin-bottom: 3rem;">
-                Order via WhatsApp
-            </button>
+        <ul class="nav-links">
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
 
-            <div class="detail-section">
-                <h4>Material & Care</h4>
-                <p>100% Natural River Grass. Wipe clean with a damp cloth. Keep away from direct moisture.</p>
-            </div>
-            
-            <div class="detail-section">
-                <h4>Dimensions</h4>
-                <p>Height: 12" | Diameter: 14"</p>
-            </div>
-        </div>
+<!-- ================= PRODUCT DETAIL ================= -->
+<div class="container product-detail-layout">
+
+    <!-- Product Image -->
+    <div class="detail-image">
+        <img src="assets/images/basket-01.jpg" alt="Handwoven Storage Baskets">
     </div>
 
-    <script src="js/main.js"></script>
+    <!-- Product Content -->
+    <div class="detail-content">
+
+        <h1>Handwoven Storage Baskets (Set of Two)</h1>
+
+        <!-- Optional price (remove if not needed yet) -->
+        <!-- <p class="product-price">₹3,200</p> -->
+
+        <p class="product-description">
+            A timeless storage essential designed to bring warmth and order to your space. 
+            Handwoven using natural jute, these baskets are sturdy yet soft in form—ideal for everyday storage without compromising on aesthetics.
+        </p>
+
+        <p class="product-description">
+            Use them to store blankets, cushions, laundry, toys, or everyday clutter—beautifully concealed in plain sight.
+        </p>
+
+        <!-- CTA -->
+        <button
+            class="btn js-order-whatsapp"
+            data-product="Handwoven Storage Baskets (Set of Two)"
+            style="width: 100%; margin: 2.5rem 0;">
+            Order via WhatsApp
+        </button>
+
+        <!-- Why It's Special -->
+        <div class="detail-section">
+            <h4>Why it’s special</h4>
+            <ul>
+                <li>Handwoven from 100% natural jute</li>
+                <li>Structured yet flexible form</li>
+                <li>Leather loop handles for easy movement</li>
+                <li>Neutral tone that blends seamlessly into any interior</li>
+            </ul>
+        </div>
+
+        <!-- Best For -->
+        <div class="detail-section">
+            <h4>Best for</h4>
+            <p>Living rooms, bedrooms, wardrobes, shelves</p>
+        </div>
+
+        <!-- Material & Care -->
+        <div class="detail-section">
+            <h4>Material & Care</h4>
+            <p>
+                100% natural jute with leather handles.  
+                Wipe clean with a dry or lightly damp cloth.  
+                Avoid prolonged exposure to moisture.
+            </p>
+        </div>
+
+        <!-- Dimensions (adjust if needed) -->
+        <div class="detail-section">
+            <h4>Dimensions</h4>
+            <p>
+                Large basket: Approx. 14” diameter × 12” height<br>
+                Small basket: Approx. 12” diameter × 10” height
+            </p>
+        </div>
+
+        <!-- Craft Note -->
+        <div class="detail-section">
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">
+                Thoughtfully designed and handmade using natural materials. 
+                Minor variations in texture and weave are part of the craft and make each piece unique.
+            </p>
+        </div>
+
+    </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/main.js"></script>
+
 </body>
 </html>
