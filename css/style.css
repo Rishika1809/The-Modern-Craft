@@ -355,3 +355,61 @@ footer {
         flex-direction: column;
     }
 }
+
+/* =========================================
+   NEW ADDITIONS (PRICING & GALLERY)
+   ========================================= */
+
+/* --- Discount Price Styling --- */
+.price-container {
+    margin: 8px 0;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Space between numbers */
+    flex-wrap: wrap;
+    justify-content: center; /* Center align for product cards */
+}
+
+/* Adjust alignment for Product Detail Page (Left Aligned) */
+.detail-content .price-container {
+    justify-content: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.current-price {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #0e1b4d; /* Dark Blue/Black */
+}
+
+.original-price {
+    font-size: 0.95rem;
+    color: #8d8d8d; /* Grey */
+    text-decoration: line-through; /* This creates the strikethrough line */
+}
+
+.discount-tag {
+    font-size: 0.9rem;
+    color: #ff905a; /* Orange Discount Color */
+    font-weight: 400;
+}
+
+/* --- Gallery Grid Styling (For Multiple Images) --- */
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Creates 2 columns */
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+}
+
+.image-gallery img:hover {
+    opacity: 0.8; /* Slight fade when hovering */
+}
